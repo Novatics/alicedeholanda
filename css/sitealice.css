@@ -1,0 +1,198 @@
+/*.mainwrapper {
+	width: 1280px;
+	margin: 0px auto;
+	margin-right: 18px;
+	margin-left: 18px;
+}*/
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	// Solução para o problema da renderização
+  // das fontes mais grossas que o esperado
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1.main-title {
+	font-family: Georgia;
+	font-size: 42px;
+	color: #EAC407;
+	font-weight: bold;
+}
+
+h2.title {
+	font-size: 26px;
+	color: #506278;
+	font-weight: 700;
+}
+
+.title-lighten {
+	font-size: 26px;
+	color: #DFE4E7;
+	font-weight: 700;
+}
+
+p {
+	font-size: 16px;
+	color: #70747D;
+	font-weight: 400;
+	line-height: 22.4px;
+}
+
+.paragraph-lighten {
+	font-size: 16px;
+	color: #DFE4E7;
+	font-weight: 400;
+	line-height: 22.4px;
+}
+
+#home {
+	background-image: url("../images/homecover.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: cover;
+	background-origin: content-box;
+	padding-left: 15px;
+	height: 765px;
+}
+
+#menu {
+	position: relative;
+	top: 20px;
+	list-style-type: none;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.pitch {
+	position: relative;
+	top: 370px;
+}
+
+#pitch {
+	color: #f5f5f5;
+}
+
+.navbar {
+	color: #DFE4E7;
+	text-decoration: none;
+}
+
+a.navbar:hover {
+	color: #EAC407;
+}
+
+a.navbar:active {
+	color: #EAC407;
+}
+
+a.link {
+	font-weight: 700;
+	color: #506278;
+}
+
+a.link:hover {
+	text-decoration: none;
+	color: #EAC407;
+}
+
+.margin-max {
+	margin-top: 90px;
+}
+
+.margin-md {
+	margin-top: 60px;
+}
+
+.margin-min {
+	margin-top: 30px;
+}
+
+.circle {
+	background-image: url("../images/circle.png");
+	background-repeat: no-repeat;
+	/*background-origin: content-box;*/
+	background-position: top left;
+}
+
+.form {
+	font-size: 16px;
+	color: #70747D;
+	background-color: #F5F5F5 !important;
+	border: 1px solid #70747D !important;
+	border-radius: 20px 0px 0px 20px !important;
+	/*height: 30px;*/
+	padding-left: 12px;
+	width: 430px;
+}
+
+.button1 {
+	font-size: 16px;
+	font-weight: 700 !important;
+	color: #506278;
+	background-color: #EAC407;
+	border: 1px solid #EAC407;
+	border-radius: 0px 20px 20px 0px !important;
+	padding-left: 15px;
+	padding-right: 20px;
+}
+
+/*a.button1:hover {
+	text-decoration: none;
+	color: #ffffff;
+}*/
+
+a.button2 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #506278;
+	background-color: #EAC407;
+	/*border: 1px solid #EAC407;*/
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	height: 38px;
+}
+
+a.button2:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#servicos-e-cursos {
+	background-color: #F5F5F5;
+}
+
+#teste {
+	background-color: #506278;
+	height: 278px;
+	/*width: 1031px;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
+.perfil {
+	background-image: url("../images/alice.png");
+	background-repeat: no-repeat;
+	/*background-origin: content-box;*/
+	background-position: top right;
+}
+
+#entrevista {
+	background-color: #F5F5F5;
+	padding-top: 10px;
+}
+
+.no-padding-left {
+	padding-left: 0 !important;
+}
+
+.no-padding-right {
+	padding-right: 0 !important;
+}
