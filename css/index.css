@@ -10,10 +10,18 @@ $grid-gutter-width: 30px !default;
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	// Solução para o problema da renderização
-  // das fontes mais grossas que o esperado
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+.wrapp {
+	max-width: 1031px; 
+	margin: 0 auto; 
+}
+
+.margin-side {
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
 h1.main-title {
@@ -26,7 +34,7 @@ h1.main-title {
 h2.title {
 	font-size: 26px;
 	color: #506278;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .title-lighten {
@@ -38,7 +46,7 @@ h2.title {
 p {
 	font-size: 16px;
 	color: #70747D;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 22.4px;
 }
 
@@ -80,10 +88,32 @@ hr.style {
 .pitch {
 	position: relative;
 	top: 370px;
+	margin-left: 214px;
+	max-width: 540px;
 }
 
 #pitch {
 	color: #f5f5f5;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.o-programa {
+	margin-left: 319px;
+	max-width: 603px;
+	margin-bottom: 60px;
+}
+
+.programa-video {
+	width: 560px;
+	float: left;
+}
+
+.programa-video-intro {
+	max-width: 390px;
+	float: right;
+	margin-top: 90px;
 }
 
 .navbar {
@@ -160,6 +190,7 @@ a.button2 {
 	font-weight: 700;
 	color: #506278;
 	background-color: #EAC407;
+	display: inline-block;
 	/*border: 1px solid #EAC407;*/
 	border-radius: 20px;
 	padding-left: 20px;
@@ -175,26 +206,42 @@ a.button2:hover {
 
 #servicos-e-cursos {
 	background-color: #F5F5F5;
+	padding-bottom: 230px;
 }
 
 #teste {
 	background-color: #506278;
 	height: 278px;
-	/*width: 1031px;
-	margin-left: auto;
-	margin-right: auto;*/
+	margin-top: -139px;
 }
 
 .perfil {
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.perfil::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
 	background-image: url("../images/alice.png");
 	background-repeat: no-repeat;
 	/*background-origin: content-box;*/
 	background-position: top right;
+	width: 515px;
+	height: 602px;
 }
 
 #entrevista {
 	background-color: #F5F5F5;
-	padding-top: 10px;
+	padding-top: 60px;
+	width: 93%;
+}
+
+.marcar-entrevista {
+	margin-left: 150px;
 }
 
 .no-padding-left {
