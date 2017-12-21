@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) and (min-width: 300px){
+@media screen and (max-width: 1024px) and (min-width: 320px){
 	
 	.home-flex {
 		display: block;
@@ -57,18 +57,21 @@
 	}
 
 	.programa-video-intro {
-		margin-left: 90px;
+		margin-left: 60px;
 		margin-top: 0px;
 	}
 
 	.programa-video iframe {
-		width: 360px;
+		width: 345px;
 		padding-top: 20px;
+		float: left;
+		padding-bottom: 20px;
 	}
 
 	.margin-left {
 		margin-left: 15px;
-		margin-right: 15px;
+		/*margin-right: 15px;*/
+		max-width: 324px;
 	}
 
 	.margin-md {
@@ -78,6 +81,47 @@
 	.input-group {
 		margin-top: 30px;
 	}
+
+	#teste {
+	height: 300px;
+	margin-top: -180px;
+	}
+
+	.perfil {
+	padding-bottom: 380px;
+	}
+
+	.perfil::after {
+	content: '';
+	display: block;
+    position: absolute;
+    top: 585px;
+    right: -21px;
+	background-image: url("../images/alice.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 334px;
+	overflow: hidden;
+	}
+
+	.off {
+		margin-left: 60px;
+		max-width: 270px;
+	}
+
+	.marcar-entrevista {
+		margin-left: 15px;
+	}
+
+	.margin-max {
+		margin-top: 30px;
+	}
+
+	.midias {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
 }
 
-@media screen and (max-width: 300px){}
+@media screen and (max-width: 321px){}

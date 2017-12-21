@@ -101,8 +101,9 @@ hr.style {
 	margin-bottom: 60px;
 }
 
-.programa-video {
+.programa-video iframe {
 	width: 560px;
+	height: 315px;
 	float: left;
 }
 
@@ -161,7 +162,6 @@ a.link:hover {
 	background-color: #F5F5F5 !important;
 	border: 1px solid #70747D !important;
 	border-radius: 20px 0px 0px 20px !important;
-	/*height: 30px;*/
 	padding-left: 12px;
 	width: 430px;
 }
@@ -177,18 +177,12 @@ a.link:hover {
 	padding-right: 20px;
 }
 
-/*a.button1:hover {
-	text-decoration: none;
-	color: #ffffff;
-}*/
-
 a.button2 {
 	font-size: 16px;
 	font-weight: 700;
 	color: #506278;
 	background-color: #EAC407;
 	display: inline-block;
-	/*border: 1px solid #EAC407;*/
 	border-radius: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -225,7 +219,6 @@ a.button2:hover {
 	right: 0;
 	background-image: url("../images/alice.png");
 	background-repeat: no-repeat;
-	/*background-origin: content-box;*/
 	background-position: top right;
 	width: 515px;
 	height: 602px;
@@ -238,7 +231,7 @@ a.button2:hover {
 }
 
 .marcar-entrevista {
-	margin-left: 150px;
+	margin-left: 110px;
 }
 
 .no-padding-left {
@@ -248,3 +241,17 @@ a.button2:hover {
 .no-padding-right {
 	padding-right: 0 !important;
 }
+
+.instagram {
+width: 140px;
+padding-bottom: 5px;
+}
+
+a.insta-hover:hover {
+	opacity: 0.5;
+}
+
+	.midias {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
