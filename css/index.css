@@ -55,15 +55,21 @@ hr.style {
 	line-height: 22.4px;
 }
 
+.logo {
+	width: 102px;
+	padding: 20px 15px 0;
+	text-align: center;
+}
+
 #home {
 	background-image: url("../images/homecover.png");
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: cover;
 	background-origin: content-box;
-	padding-left: 15px;
+	/* padding-left: 15px; */
 	height: 765px;
-	width: calc(100% - 90px);
+	width: calc(100% - 102px);
 }
 
 .home-flex {
@@ -74,11 +80,6 @@ hr.style {
 	position: relative;
 	top: 20px;
 	list-style-type: none;
-}
-
-.logo {
-	width: 90px;
-	padding-top: 20px;
 }
 
 .pitch {
@@ -96,7 +97,6 @@ hr.style {
 }
 
 .o-programa {
-	margin-left: 319px;
 	max-width: 603px;
 	margin-bottom: 60px;
 }
@@ -151,9 +151,8 @@ a.link:hover {
 .circle {
 	background-image: url("../images/circle.png");
 	background-repeat: no-repeat;
-	/*background-origin: content-box;*/
 	background-position: top left;
-	transform: translateX(-15px);
+	margin-left: -15px;
 }
 
 .form {
@@ -231,7 +230,7 @@ a.button2:hover {
 }
 
 .marcar-entrevista {
-	margin-left: 110px;
+	/* margin-left: 110px; */
 }
 
 .no-padding-left {

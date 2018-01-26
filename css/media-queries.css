@@ -11,20 +11,19 @@
 	#home {
 		width: auto;
 		height: 304px;
-		margin-left: -15px;
-		margin-right: -15px;
 	}
-
+	
 	#pitch {
 		font-size: 16px;
 		line-height: 22px;
 	}
-
+	
 	.pitch {    
+		padding: 0 15px;
 		width: 90%;
-	    max-width: auto;
-	    margin: 0;
-	    top: 140px;
+		max-width: auto;
+		margin: 0;
+		top: 140px;
 	}
 
 	.logo img {
@@ -44,6 +43,7 @@
 	}
 
 	.circle {
+		padding: 0 15px;
 		background-size: 240px;
 		background-position: 0 260px;
 	}
@@ -110,7 +110,7 @@
 	}
 
 	.marcar-entrevista {
-		margin-left: 15px;
+		padding: 0 15px;
 	}
 
 	.margin-max {
@@ -120,6 +120,12 @@
 	.midias {
 		margin-top: 20px;
 		margin-bottom: 30px;
+		padding: 0 15px;
+	}
+
+	#entrevista {
+		overflow: hidden;
+		width: auto;
 	}
 
 }
@@ -240,7 +246,7 @@
 	}
 
 	.marcar-entrevista {
-		margin-left: 15px;
+		padding: 0 15px;
 	}
 
 	.margin-max {
@@ -259,5 +265,10 @@
 	.instagram {
 	width: 115px;
 	padding-bottom: 5px;
+	}
+
+	#entrevista {
+		overflow: hidden;
+		width: auto;
 	}
 }
